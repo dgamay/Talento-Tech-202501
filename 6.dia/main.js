@@ -6,19 +6,15 @@ let numero4 = document.getElementById("numero4")
 let btnCalcular = document.getElementById("btnCalcular")
 let salidaDescuento = document.getElementById("salidaDescuento")
 let entrada = 0
-let n1 = 0
-let n2 = 0
-let n3 = 0
-let n4 = 0
+let n1 = 6
+let n2 = 7
+let n3 = 3
+let n4 = 5
+console.log(numero1,"nuevo =",n1)
 
-/* if (numero1==null){numero1==6}
-if (numero2== null){numero2==7}
-if (numero3== null){numero3==5}
-if (numero4== null){numero4==3} */
 
 /* ############################################# */
 numero1.addEventListener("input", (evento) => {
-    console.log("evento disparo1")
     n1 = evento.target.value
     console.log(n1)
 })
@@ -30,10 +26,12 @@ numero2.addEventListener("input", (evento) => {
 
 numero3.addEventListener("input", (evento) => {
     n3 = evento.target.value
+    if (n3== 0){n3==5}
     console.log(n3)
 })
 numero4.addEventListener("input", (evento) => {
     n4 = evento.target.value
+    if (n4==0){n4==3}
     console.log(n4)
 })
 
@@ -46,16 +44,11 @@ numeroFlor.addEventListener("input", (evento) => {
 
 
 function entradaDatos( entradaUsuario){
-    console.log(numero1, n1,n2,n3,n4,entrada,entradaUsuario)
 if ((entradaUsuario % n1/* 6 */ == 0 && entradaUsuario % n2 /* 7 */ == 0) && (entradaUsuario % n3/* 5 */ == 0 && entradaUsuario %  n4/* 3 */ == 0)) {
-    console.log("violeta")
     return "violeta"
-
-} else if (entradaUsuario % numero3/* 5 */ == 0 && entradaUsuario %  numero4 /* 3 */ == 0) {
-    console.log("margarita")
+} else if (entradaUsuario % n3/* 5 */ == 0 && entradaUsuario %  n4 /* 3 */ == 0) {
     return "margarita"
-} else if (entradaUsuario % numero1 /* 6 */ == 0 && entradaUsuario %  numero2/* 7 */ == 0) {
-    console.log(entradaDatos("Rosa"))
+} else if (entradaUsuario % n1 /* 6 */ == 0 && entradaUsuario %  n2/* 7 */ == 0) {
     return "Rosa"
 } else {
     return "El numero no es valido"
@@ -65,7 +58,7 @@ if ((entradaUsuario % n1/* 6 */ == 0 && entradaUsuario % n2 /* 7 */ == 0) && (en
 btnCalcular.addEventListener("click", () =>{
     let resultado= entradaDatos(entrada)
     let hijo = document.createElement("h4")
-    hijo.innerHTML = resultado + " " + resultado
+    hijo.innerHTML = resultado + " " 
     salidaDescuento.appendChild(hijo) 
 
 })
