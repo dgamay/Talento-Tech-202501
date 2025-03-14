@@ -1,0 +1,40 @@
+Algoritmo dia dia
+
+1 Me despierto  a las 4:50 
+2 pospongo la alarma 10 minutos
+3 Me levanto a las 5:00 
+4 agarro la toalla 
+5 me meto a la ducha y me baño
+6 salgo de la ducha
+7 Me seco y cuelgo la toalla, me aplico desodorante
+8 me visto de la cintura para abajo
+9 me cepillo
+10 plancho la camisa
+11 tomo agua
+12 me pongo la camisa y me atalajo
+13 Alisto mamleta abro la puerta de la casa, la reja, saco la moto y la enciendo
+14 entro por casco y maleta
+15 salgo cierro puerta y reja.
+16 me pongo el casco y arranco en la moto.
+17 llego a la casa de mi novia a recogerla
+18 la llevo a la parada de la ruta de la empresa para la que trabaja.
+19 Luego de que la recoge la ruta voy a donde mi hija para llevar la al colegio.
+20 entro a la casa donde vive mi hija
+21 mientras la espero desayuno y veo tv
+22 cuando ella esta lista y yo termino de desayunar la llevo al colegio
+23 la dejo en el colegio y salgo a trabajar.
+24 al llegar al trabajo lo primero es tomarse la foto para enviar el reporte de ingreso a las actividades hasta las 12:00.
+25 Al rededor de las 12:00 salgo de las instalaciones a buscar el almuerzo
+26 me tomo la media hora almorzando
+27 de regreso a las instalaciones se hace una  parada al baño a cepillarse.
+28 continuan las actividades hasta las 17:00
+29 se toma la foto de reporte de salida.
+30 Salgo para la univerdad 
+31 veo clases hasta las 9:30
+32 voy a casa
+33 llego a la casa parqueo la moto
+34 abro la reja  y la puerta
+35 entro la moto
+36 cierro la reja y la puerta.
+37 me quito la ropa y me baño.
+38 me enpillamo y me acuesto 

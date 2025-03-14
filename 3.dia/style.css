@@ -1,0 +1,38 @@
+body {
+    justify-content: space-between;
+    background-image: url("/imagen\ 1.jpg");
+    background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+    font-size: 5 em;
+    font-weight: bold;
+    color: floralwhite;
+}
+
+h1 {
+    color: blue;
+}
+
+ol  {
+   
+}
+.huevo{
+    background-position: left;
+    background-color: transparent;
+    font-size: medium;
+    width: 45%;
+    
+}
+.diario{
+    background-color: transparent;
+    width: 45%;
+    position:absolute;
+    margin-left: 5
+    
+}
+
+/* EN LOS ARCHIVOS CSS HAY GERARQUIA EN LAS ETIQUETAS
+*LA ETIQUETA QUE MAS PESA ES LA  QUE SE PODE DIRECTAMENTE EN LA PAGINA
+2 EL ID= CUENADO ES UNICO
+3 LA CLASE= SE PUEDE APLICARE A MULTIPLES ELEMENTOS
+4 ELEMENTO */
+
