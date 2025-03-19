@@ -57,8 +57,8 @@ if ((entradaUsuario % n1/* 6 */ == 0 && entradaUsuario % n2 /* 7 */ == 0) && (en
 }
 }
 
-btnCalcular.addEventListener("click", () =>{
-    let resultado= entradaDatos(entrada)
+btnCalcular.addEventListener("click", () =>{ //cuando se presiona el boton se ejecutan las 
+    let resultado= entradaDatos(entrada)     //instrucciones dentro
     let hijo = document.createElement("h4")
     hijo.innerHTML = resultado + " " 
     salidaDescuento.appendChild(hijo) 

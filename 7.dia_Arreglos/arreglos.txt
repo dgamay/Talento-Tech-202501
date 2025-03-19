@@ -1,0 +1,16 @@
+Qué es la sucesión Fibonacci
+Las series de Fibonacci son sucesiones de números que reflejan una interesantísima relación. 
+Constan del conjunto ordenado de cifras cuyo valor se forma con la suma de los dos números anteriores, 
+lo que da origen a otras relevantes inferencias matemáticas. Esta fórmula de la serie de Fibonacci también 
+se distingue con los nombres de código secreto de la naturaleza y secuencia divina, ya que es posible 
+encontrarla en los pétalos de las flores, las ramas de los árboles y los caparazones de ciertos moluscos. Por ende, 
+desde siempre se ha buscado saber qué es Fibonacci con relación al mismísimo orden de nuestra realidad.
+
+1. iniciar variable donde se guardaran los datos de la sucesion.
+2. iniciar variable donde se guardara el dato ingresado por el usuario.
+	inicializar las variables de los dos primeros numeros.
+3. iniciar la serie de fibonacci, la cual consta de la suma sucesiba de dos numeros anteriores dejando fijados los dos 
+   primeros numeros 
+
+
+
