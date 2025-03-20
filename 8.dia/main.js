@@ -2,7 +2,8 @@ let entradaUser = document.getElementById("numeroUsuario");
 let salida = document.getElementById("salidaNumeros");
 let btnCalcular = document.getElementById("btnCalcular");
 
-
+/* funcion flecha o funcion anonima que no tiene nombre
+ */
 entradaUser.addEventListener("input", (evento) => {//Se agrega un manejador de eventos al input del usuario. Este escucha cuando el usuario escribe en el campo.
     limit = evento.target.value; // Convertir a número,Obtiene el valor actual que el usuario escribe en el input.
     console.log(limit);
@@ -31,6 +32,6 @@ function fizzBuzz(limit) {
 }
 
 btnCalcular.addEventListener("click", () => {
-    salida.innerHTML = ""; 
+    salida.innerHTML = ""; //limpia los valores de existentes si los hay al dar click
     fizzBuzz(limit); // Llamar la función con el límite especificado
 });
