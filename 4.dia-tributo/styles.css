@@ -36,11 +36,11 @@ p{
     margin: 1rem;
     justify-content: space-around;
     padding: auto;
-}
+}/* 
 p:hover{
 /*     font-family: "Sofia", sans-serif; 
- */}
-
+ }
+ */
 img{
     opacity: 0.5;
     height: 30rem;
