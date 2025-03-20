@@ -1,9 +1,9 @@
 *{
-    color: white;
+    color: rgb(20, 20, 20);
 }
 html{
-    background-image:url(/4.dia-tributo/bgimage.jpg) ;
-    background-color: rgb(233, 243, 233);
+    /* background-image:url(/4.dia-tributo/bgimage.jpg) ; */
+    background-color: rgb(238, 247, 238);
 }
 .personajes{
     display: flex;
@@ -38,8 +38,8 @@ p{
     padding: auto;
 }
 p:hover{
-    font-family: "Sofia", sans-serif; 
-}
+/*     font-family: "Sofia", sans-serif; 
+ */}
 
 img{
     opacity: 0.5;
@@ -50,7 +50,16 @@ img{
 img:hover{
     opacity: 1.0;
 }
-.sinapsis, .sinap{
+.sinapsis{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.sinap{
+    width: 80%;
     display: flex;
     flex-direction: row;
+/*     justify-content: center;
+ */    align-content: center;
 }
